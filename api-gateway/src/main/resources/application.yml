@@ -13,4 +13,7 @@ zuul:
   routes:
     user:                                                            
       path: /user/**                                                 
-      url: http://localhost:8081/user/                                   
+      url: http://localhost:8081/user/   
+    manage:                                                            
+      path: /manage/**                                                 
+      url: http://localhost:8082/manage/                                     
