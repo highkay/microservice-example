@@ -26,8 +26,8 @@
 
 ### 验证步骤
 
-* 微服务user-service集成了swagger2，可以通过http://localhost:8081/swagger-ui.html中的添加用户接口来添加一个用户，编辑一个含有username和password属性的json提交即可。然后通过获取用户列表接口来验证一下添加是否成功。该步骤验证user-service本身是否已经能工作。
-* 打开http://localhost:8761/可以发现Application栏目中已经有LOGIN和MANAGE模块了。该步骤说明微服务已经注册成功。
-* 打开http://localhost:8080/user/看到有第一步提交的数据。该步骤说明代理网关也已经正常工作。
-* 打开http://localhost:8080/manage/
+* 微服务user-service集成了swagger2，可以通过http://localhost:8081/swagger-ui.html 中的添加用户接口来添加一个用户，编辑一个含有username和password属性的json提交即可。然后通过获取用户列表接口来验证一下添加是否成功。该步骤验证user-service本身是否已经能工作。
+* 打开http://localhost:8761/ 可以发现Application栏目中已经有LOGIN和MANAGE模块了。该步骤说明微服务已经注册成功。
+* 打开http://localhost:8080/user/ 看到有第一步提交的数据。该步骤说明代理网关也已经正常工作。
+* 打开http://localhost:8080/manage/ 
 看到第一步提交的数据。该步骤说明微服务manage-service也已经正常工作。
