@@ -46,7 +46,13 @@ spring-cloud-sleuth/zipkin
 
 ### 度量
 
-servo
+servo vs metrics
+
+http://www.moskito.org/
+https://github.com/naver/pinpoint
+https://www.icinga.com/
+https://mmonit.com/monit/
+http://www.hawkular.org/
 
 ### 日志
 
@@ -59,6 +65,10 @@ elk非常成熟和强大。
 kalfka vs rabbitMQ
 
 kalfka似乎更好，需要看实际场景。
+
+### 异步编程
+
+rxjava vs vert.x
 
 ## 应用部署
 
@@ -82,6 +92,8 @@ kalfka似乎更好，需要看实际场景。
 [Spring Boot构建RESTful API与单元测试](http://blog.didispace.com/springbootrestfulapi/)
 [Spring Boot中使用Swagger2构建强大的RESTful API文档](http://blog.didispace.com/springbootswagger2/)
 [其他Spring Boot相关](http://blog.didispace.com/categories/Spring-Boot/page/3/)
+https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples
+[master spring](https://github.com/eugenp/tutorials)
 
 ## 参考文档
 
@@ -101,3 +113,10 @@ http://www.infoq.com/cn/articles/architecture-optimization-and-design-the-archit
 
 实施微服务，我们需要哪些基础框架？
 http://www.infoq.com/cn/articles/basis-frameworkto-implement-micro-service
+
+### 示例代码
+
+https://github.com/yidongnan/spring-cloud-netflix-example
+http://git.oschina.net/zhou666/spring-cloud-7simple
+https://github.com/zpng/spring-cloud-7simple
+
